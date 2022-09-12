@@ -1,0 +1,101 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Tech Notes</title>
+  <subtitle>Technical and Philosophical notes around programming, AI, ethics, software architecture and usability design.</subtitle>
+  <updated>2022-09-12T18:57:54+02:00</updated>
+  <author>
+    <name>Nimish Gåtam</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Nimish Gåtam </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>QMK Layer Issues and Troubleshooting</title>
+    <link href="http://localhost:4000/posts/QMK-tricks/" rel="alternate" type="text/html" title="QMK Layer Issues and Troubleshooting" />
+    <published>2022-09-11T00:00:00+02:00</published>
+  
+    <updated>2022-09-11T00:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/QMK-tricks/</id>
+    <content src="http://localhost:4000/posts/QMK-tricks/" />
+    <author>
+      <name>Nimish Gåtam</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Overview
+
+Quantum Mechanical Keyboard (or qmk ) is an amazing software library that lets you program your mechanical keyboard in all sorts of ways.
+
+However, I’ve had some ‘minor’ issues in trying to get my keyboard to do exactly what I want, and it took lots of time combing through the documentation to figure out the solutions to my issues. So I made this ‘Layer Issues and Troubleshooting’ pag...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>GitHub-hosted Static Pages - is it worth it?</title>
+    <link href="http://localhost:4000/posts/Github-hosted/" rel="alternate" type="text/html" title="GitHub-hosted Static Pages - is it worth it?" />
+    <published>2022-09-11T00:00:00+02:00</published>
+  
+    <updated>2022-09-11T00:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/Github-hosted/</id>
+    <content src="http://localhost:4000/posts/Github-hosted/" />
+    <author>
+      <name>Nimish Gåtam</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Motivation for a github.io page
+
+
+
+Github has a fairly strong positive reputation (as of this writing 🙂)
+
+They also have a feature where they will host a static website for you for free based on the contents of a github repository. By convention, most people use this as a personal blog space, and specifically technical blogs (I think this is a self-selecting mechanism I’ll talk about later). So...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
