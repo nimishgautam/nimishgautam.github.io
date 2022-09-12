@@ -892,7 +892,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="1607 words">
+  title="1619 words">
   <em>8 min</em> read</span>
 
     </div>
@@ -920,8 +920,11 @@
 
 <h2 id="pros"><span class="mr-2">Pros</span><a href="#pros" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h3 id="-free"><span class="mr-2">✅ Free</span><a href="#-free" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>No hosting costs or subscription costs, big plus. But this extends beyond simple hosting costs and also covers maintenance costs. You don’t have to update the underlying server, ensure it’s secure, do any migrations<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup> or anything. Theoretically, your content will be fine, secure, and accessible for as long as github offers this service. As someone who has unfortunately left Wordpress installations idle for years, I can say this point shouldn’t be overlooked.</p>
+<h3 id="-free-hosting-and-infrastructure-maintenance"><span class="mr-2">✅ Free hosting and infrastructure maintenance</span><a href="#-free-hosting-and-infrastructure-maintenance" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>No hosting costs or subscription costs, big plus. But this extends beyond simple hosting costs and also covers maintenance costs. You don’t have to update the underlying server, ensure it’s secure, do any migrations<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup> or anything. No renewing SSL certificates, renewing domain names, etc. Theoretically, your content will be fine, secure, and accessible for as long as github offers this service.</p>
+
+<p>As someone who has unfortunately left Wordpress installations idle for years, I can say this point shouldn’t be overlooked.</p>
 
 <h3 id="-full-content-control"><span class="mr-2">✅ Full Content control</span><a href="#-full-content-control" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>You control the code that’s deployed in its final form; the platform doesn’t add advertising banners without you knowing or otherwise break up or reflow your content in ways you didn’t anticipate.</p>
@@ -1520,6 +1523,65 @@ However, I’ve had some ‘minor’ issues in trying ...
     
       
       <!--  The comments switcher -->
+
+  
+  <!-- https://giscus.app/ -->
+<script type="text/javascript">
+  $(function () {
+    const origin = "https://giscus.app";
+    const iframe = "iframe.giscus-frame";
+    const lightTheme = "light";
+    const darkTheme = "dark_dimmed";
+    let initTheme = lightTheme;
+
+    if ($("html[data-mode=dark]").length > 0
+        || ($("html[data-mode]").length == 0
+            && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      initTheme = darkTheme;
+    }
+
+    let giscusAttributes = {
+      "src": "https://giscus.app/client.js",
+      "data-repo": "nimishgautam/nimishgautam.github.io",
+      "data-repo-id": "R_kgDOH-VEaw",
+      "data-category": "General",
+      "data-category-id": "DIC_kwDOH-VEa84CRYeH",
+      "data-mapping": "pathname",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-theme": initTheme,
+      "data-input-position": "bottom",
+      "data-lang": "en",
+      "crossorigin": "anonymous",
+      "async": ""
+    };
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("tail-wrapper").appendChild(giscusScript);
+
+    addEventListener("message", (event) => {
+      if (event.source === window && event.data &&
+            event.data.direction === ModeToggle.ID) {
+        /* global theme mode changed */
+        const mode = event.data.message;
+        const theme = (mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme);
+
+        const message = {
+          setConfig: {
+            theme: theme
+          }
+        };
+
+        const giscus = document.querySelector(iframe).contentWindow;
+        giscus.postMessage({ giscus: message }, origin);
+      }
+
+    });
+
+  });
+</script>
+
 
 
     
