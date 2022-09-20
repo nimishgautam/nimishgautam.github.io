@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tech Notes</title>
   <subtitle>Technical and Philosophical notes around programming, AI, ethics, software architecture and usability design.</subtitle>
-  <updated>2022-09-12T19:19:18+02:00</updated>
+  <updated>2022-09-20T10:56:16+02:00</updated>
   <author>
     <name>Nimish Gåtam</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Getting an oldschool tablet PC (Toshiba Portege M200) working in 2022</title>
+    <link href="http://localhost:4000/posts/portege200/" rel="alternate" type="text/html" title="Getting an oldschool tablet PC (Toshiba Portege M200) working in 2022" />
+    <published>2022-09-14T00:00:00+02:00</published>
+  
+    <updated>2022-09-14T00:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/portege200/</id>
+    <content src="http://localhost:4000/posts/portege200/" />
+    <author>
+      <name>Nimish Gåtam</name>
+    </author>
+
+  
+    
+    <category term="Hardware" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Disclaimer: The useful part of this post is just a rehash of this amazing resource which got my hardware working. I’m writing this mostly in case this page and knowledge vanish from the internet
+
+Meet the Tablet before Tablets
+
+Many years decades(!) ago I bought a laptop for the purpose of taking handwritten notes in meetings. This was the Toshiba Portege/Portégé M200, which first came out in...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
