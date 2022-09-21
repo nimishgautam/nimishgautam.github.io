@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tech Notes</title>
   <subtitle>Technical and Philosophical notes around programming, AI, ethics, software architecture and usability design.</subtitle>
-  <updated>2022-09-20T10:56:16+02:00</updated>
+  <updated>2022-09-21T23:33:44+02:00</updated>
   <author>
     <name>Nimish Gåtam</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,49 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Getting KMonad working in OSX with a non-US keyboard</title>
+    <link href="http://localhost:4000/posts/kmonad-osx/" rel="alternate" type="text/html" title="Getting KMonad working in OSX with a non-US keyboard" />
+    <published>2022-09-21T00:00:00+02:00</published>
+  
+    <updated>2022-09-21T00:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/kmonad-osx/</id>
+    <content src="http://localhost:4000/posts/kmonad-osx/" />
+    <author>
+      <name>Nimish Gåtam</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      KMonad vs QMK
+
+As I’ve discussed before, qmk is an amazing piece of software designed to program your mechanical keyboard. The problem, of course, is that you have to have a mechanical keyboard to use it.
+
+But, what if, instead, you could run software on your computer itself that would re-interpret keypresses on your regular keyboard to give it some of the ‘magic’ that QMK has?
+
+Enter KMonad
+
+
+...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
