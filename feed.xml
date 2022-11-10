@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tech Notes</title>
   <subtitle>Technical and Philosophical notes around programming, AI, ethics, software architecture and usability design.</subtitle>
-  <updated>2022-09-21T23:33:44+02:00</updated>
+  <updated>2022-11-10T17:40:14+01:00</updated>
   <author>
     <name>Nimish Gåtam</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Founders: Your employees' first challenge is you</title>
+    <link href="http://localhost:4000/posts/founder-journey/" rel="alternate" type="text/html" title="Founders: Your employees' first challenge is you" />
+    <published>2022-11-09T00:00:00+01:00</published>
+  
+    <updated>2022-11-09T00:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/founder-journey/</id>
+    <content src="http://localhost:4000/posts/founder-journey/" />
+    <author>
+      <name>Nimish Gåtam</name>
+    </author>
+
+  
+    
+    <category term="Start up" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      For the better part of the last 15 years, I’ve worked with start-ups and scale-ups in many capacities: co-founder, employee, consultant, advisor, mascot. Ok, maybe not the last one, but you get the idea 🙂
+
+At this point, I’ve started noticing some common pitfalls. Today I wanted to address a big one: founders assumption that their company culture’s future is clear, and how this causes them to s...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -107,7 +143,7 @@ Many years decades(!) ago I bought a laptop for the purpose of taking handwritte
     <link href="http://localhost:4000/posts/QMK-tricks/" rel="alternate" type="text/html" title="QMK Layer Issues and Troubleshooting" />
     <published>2022-09-11T00:00:00+02:00</published>
   
-    <updated>2022-09-11T00:00:00+02:00</updated>
+    <updated>2022-09-23T08:21:52+02:00</updated>
   
     <id>http://localhost:4000/posts/QMK-tricks/</id>
     <content src="http://localhost:4000/posts/QMK-tricks/" />
@@ -145,7 +181,7 @@ However, I’ve had some ‘minor’ issues in trying to get my keyboard to do e
     <link href="http://localhost:4000/posts/Github-hosted/" rel="alternate" type="text/html" title="GitHub-hosted Static Pages - is it worth it?" />
     <published>2022-09-11T00:00:00+02:00</published>
   
-    <updated>2022-09-11T00:00:00+02:00</updated>
+    <updated>2022-09-23T08:21:52+02:00</updated>
   
     <id>http://localhost:4000/posts/Github-hosted/</id>
     <content src="http://localhost:4000/posts/Github-hosted/" />
